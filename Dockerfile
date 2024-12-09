@@ -19,4 +19,4 @@ ADD start-ollama-serverless.sh .
 # Override Ollama's entrypoint
 ENTRYPOINT ["/bin/bash", "/app/start-ollama-serverless.sh"]
 
-CMD ["ollama run llama3.1:70b-instruct-fp16"]
+CMD ["ollama run llama3.3:70b-instruct-fp16"]
